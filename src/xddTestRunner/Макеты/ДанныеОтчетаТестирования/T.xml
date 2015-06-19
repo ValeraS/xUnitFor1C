@@ -16,6 +16,13 @@
 						<d5p1:content>Тестовый набор.Имя</d5p1:content>
 					</d5p1:item>
 				</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>0</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ТестовыйНабор.ПолныйПуть</dataPath>
@@ -26,6 +33,13 @@
 						<d5p1:content>Тестовый набор.Полный путь</d5p1:content>
 					</d5p1:item>
 				</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>0</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ТестовыйНабор</dataPath>
@@ -41,6 +55,13 @@
 					<orderType xmlns="http://v8.1c.ru/8.1/data-composition-system/common">Asc</orderType>
 					<autoOrder xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</autoOrder>
 				</orderExpression>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>0</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ТестовыйНабор.КоличествоТестов</dataPath>
@@ -51,6 +72,14 @@
 						<d5p1:content>Тестовый набор.Количество тестов</d5p1:content>
 					</d5p1:item>
 				</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
+					<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Digits>10</Digits>
+						<FractionDigits>0</FractionDigits>
+						<AllowedSign>Nonnegative</AllowedSign>
+					</NumberQualifiers>
+				</valueType>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ТестовыйНабор.Родитель</dataPath>
@@ -61,6 +90,13 @@
 						<d5p1:content>Тестовый набор.Родитель</d5p1:content>
 					</d5p1:item>
 				</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>0</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ТестовыйНабор.ТипСтроки</dataPath>
@@ -71,6 +107,14 @@
 						<d5p1:content>Тестовый набор.Тип строки</d5p1:content>
 					</d5p1:item>
 				</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
+					<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Digits>10</Digits>
+						<FractionDigits>0</FractionDigits>
+						<AllowedSign>Nonnegative</AllowedSign>
+					</NumberQualifiers>
+				</valueType>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ТестовыйНабор.Порядок</dataPath>
@@ -81,6 +125,14 @@
 						<d5p1:content>Тестовый набор.Порядок</d5p1:content>
 					</d5p1:item>
 				</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
+					<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Digits>10</Digits>
+						<FractionDigits>0</FractionDigits>
+						<AllowedSign>Nonnegative</AllowedSign>
+					</NumberQualifiers>
+				</valueType>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ТестовыйНабор.ВремяВыполнения</dataPath>
@@ -91,6 +143,14 @@
 						<d5p1:content>Тестовый набор.Время выполнения</d5p1:content>
 					</d5p1:item>
 				</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
+					<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Digits>15</Digits>
+						<FractionDigits>4</FractionDigits>
+						<AllowedSign>Nonnegative</AllowedSign>
+					</NumberQualifiers>
+				</valueType>
 			</field>
 			<dataSource>ИсточникДанных1</dataSource>
 			<objectName>ТестовыеНаборы</objectName>
@@ -106,6 +166,13 @@
 						<d5p1:content>Тестовый метод.Тестовый набор</d5p1:content>
 					</d5p1:item>
 				</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>0</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ТестовыйМетод.Имя</dataPath>
@@ -155,6 +222,13 @@
 					<orderType xmlns="http://v8.1c.ru/8.1/data-composition-system/common">Asc</orderType>
 					<autoOrder xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</autoOrder>
 				</orderExpression>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>0</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>Тестовыйметод.ЕстьПараметрыТеста</dataPath>
@@ -165,6 +239,9 @@
 						<d5p1:content>Тестовыйметод.Есть параметры теста</d5p1:content>
 					</d5p1:item>
 				</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:boolean</Type>
+				</valueType>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ТестовыйМетод.Порядок</dataPath>
@@ -175,6 +252,14 @@
 						<d5p1:content>Тестовый метод.Порядок</d5p1:content>
 					</d5p1:item>
 				</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
+					<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Digits>10</Digits>
+						<FractionDigits>0</FractionDigits>
+						<AllowedSign>Nonnegative</AllowedSign>
+					</NumberQualifiers>
+				</valueType>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ТестовыйМетод.ТипСтроки</dataPath>
@@ -185,6 +270,14 @@
 						<d5p1:content>Тестовый метод.Тип строки</d5p1:content>
 					</d5p1:item>
 				</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
+					<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Digits>10</Digits>
+						<FractionDigits>0</FractionDigits>
+						<AllowedSign>Nonnegative</AllowedSign>
+					</NumberQualifiers>
+				</valueType>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ТестовыйМетод.ВремяВыполнения</dataPath>
@@ -195,6 +288,14 @@
 						<d5p1:content>Тестовый метод.Время выполнения</d5p1:content>
 					</d5p1:item>
 				</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
+					<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Digits>15</Digits>
+						<FractionDigits>4</FractionDigits>
+						<AllowedSign>Nonnegative</AllowedSign>
+					</NumberQualifiers>
+				</valueType>
 			</field>
 			<dataSource>ИсточникДанных1</dataSource>
 			<objectName>ТестовыеМетоды</objectName>
@@ -210,6 +311,13 @@
 						<d5p1:content>Тестовый метод</d5p1:content>
 					</d5p1:item>
 				</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>0</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>Описание</dataPath>
@@ -220,6 +328,13 @@
 						<d5p1:content>Описание</d5p1:content>
 					</d5p1:item>
 				</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>0</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>Пропущен</dataPath>
@@ -338,6 +453,14 @@
 						<d5p1:content>Тип строки</d5p1:content>
 					</d5p1:item>
 				</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
+					<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Digits>10</Digits>
+						<FractionDigits>0</FractionDigits>
+						<AllowedSign>Nonnegative</AllowedSign>
+					</NumberQualifiers>
+				</valueType>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>Статус</dataPath>
@@ -348,6 +471,13 @@
 						<d5p1:content>Статус</d5p1:content>
 					</d5p1:item>
 				</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>0</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
 			</field>
 			<dataSource>ИсточникДанных1</dataSource>
 			<objectName>Ошибки</objectName>
@@ -363,6 +493,13 @@
 						<d5p1:content>Тестовый набор.Имя</d5p1:content>
 					</d5p1:item>
 				</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>0</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ТестовыйНабор.ПолныйПуть</dataPath>
@@ -373,6 +510,13 @@
 						<d5p1:content>Тестовый набор.Полный путь</d5p1:content>
 					</d5p1:item>
 				</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>0</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ТестовыйНабор</dataPath>
@@ -388,6 +532,13 @@
 					<orderType xmlns="http://v8.1c.ru/8.1/data-composition-system/common">Asc</orderType>
 					<autoOrder xmlns="http://v8.1c.ru/8.1/data-composition-system/common">true</autoOrder>
 				</orderExpression>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>0</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ТестовыйНабор.КоличествоТестов</dataPath>
@@ -398,6 +549,14 @@
 						<d5p1:content>Тестовый набор.Количество тестов</d5p1:content>
 					</d5p1:item>
 				</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
+					<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Digits>10</Digits>
+						<FractionDigits>0</FractionDigits>
+						<AllowedSign>Nonnegative</AllowedSign>
+					</NumberQualifiers>
+				</valueType>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ТестовыйНабор.Родитель</dataPath>
@@ -408,6 +567,13 @@
 						<d5p1:content>Тестовый набор.Родитель</d5p1:content>
 					</d5p1:item>
 				</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:string</Type>
+					<StringQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Length>0</Length>
+						<AllowedLength>Variable</AllowedLength>
+					</StringQualifiers>
+				</valueType>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ТестовыйНабор.ТипСтроки</dataPath>
@@ -418,6 +584,14 @@
 						<d5p1:content>Тестовый набор.Тип строки</d5p1:content>
 					</d5p1:item>
 				</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
+					<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Digits>10</Digits>
+						<FractionDigits>0</FractionDigits>
+						<AllowedSign>Nonnegative</AllowedSign>
+					</NumberQualifiers>
+				</valueType>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ТестовыйНабор.Порядок</dataPath>
@@ -428,6 +602,14 @@
 						<d5p1:content>Тестовый набор.Порядок</d5p1:content>
 					</d5p1:item>
 				</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
+					<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Digits>10</Digits>
+						<FractionDigits>0</FractionDigits>
+						<AllowedSign>Nonnegative</AllowedSign>
+					</NumberQualifiers>
+				</valueType>
 			</field>
 			<field xsi:type="DataSetFieldField">
 				<dataPath>ТестовыйНабор.ВремяВыполнения</dataPath>
@@ -438,6 +620,14 @@
 						<d5p1:content>Тестовый набор.Время выполнения</d5p1:content>
 					</d5p1:item>
 				</title>
+				<valueType>
+					<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
+					<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
+						<Digits>15</Digits>
+						<FractionDigits>4</FractionDigits>
+						<AllowedSign>Nonnegative</AllowedSign>
+					</NumberQualifiers>
+				</valueType>
 			</field>
 			<dataSource>ИсточникДанных1</dataSource>
 			<objectName>ИерархияТестовыхНаборов</objectName>
@@ -496,9 +686,9 @@
 			<valueType>
 				<Type xmlns="http://v8.1c.ru/8.1/data/core">xs:decimal</Type>
 				<NumberQualifiers xmlns="http://v8.1c.ru/8.1/data/core">
-					<Digits>10</Digits>
-					<FractionDigits>0</FractionDigits>
-					<AllowedSign>Any</AllowedSign>
+					<Digits>15</Digits>
+					<FractionDigits>4</FractionDigits>
+					<AllowedSign>Nonnegative</AllowedSign>
 				</NumberQualifiers>
 			</valueType>
 		</calculatedField>
